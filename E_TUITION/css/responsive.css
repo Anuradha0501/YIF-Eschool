@@ -30,17 +30,29 @@
     top: 70px;
     width: 45%;
     left: 3%;
+    z-index: 0;
   }
   .first-box .im1 {
     width: 50%;
+  }
+  .first-box .btn {
+    margin-left: 20%;
   }
   .second-box {
     top: 70px;
     width: 45%;
     left: 53%;
+    z-index: 0;
   }
   .second-box .im2 {
     width: 42%;
+  }
+  .second-box .btn {
+    margin-left: 20%;
+  }
+  .container .box {
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -129,18 +141,32 @@
     left: 0;
     top: 0;
     transform: none;
+    margin: 80px auto;
   }
   .first-box {
-    top: 80px;
+    top: 0;
     left: 0px;
     position: relative;
     margin: 0 auto;
+    z-index: 0;
   }
   .second-box {
-    top: 200px;
+    top: 0;
     left: 0px;
     margin: 0 auto;
     position: relative;
+    z-index: 0;
+  }
+  .copyright {
+    margin-top: 0;
+  }
+
+  .main-layout .sec {
+    height: 100px;
+  }
+  .container .box {
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -203,29 +229,49 @@
     left: 0;
     top: 0;
     transform: none;
+    margin: 80px auto;
   }
   .first-box {
-    top: 80px;
+    top: 0px;
     left: 0px;
     width: 90%;
     position: relative;
     margin: 0 auto;
+    z-index: 0;
   }
   .first-box .im1 {
     width: 50%;
-    position: relative;
+    margin-left: 50%;
+  }
+  .first-box .btn {
+    margin-left: 15%;
   }
 
   .second-box {
-    top: 200px;
+    top: 0px;
     left: 0px;
     width: 90%;
     margin: 0 auto;
     position: relative;
+    z-index: 0;
   }
   .second-box .im2 {
     width: 40%;
-    position: relative;
+    margin-left: 60%;
+  }
+  .second-box .btn {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .copyright {
+    margin-top: 0;
+  }
+  .main-layout .sec {
+    height: 100px;
+  }
+  .container .box {
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
@@ -260,17 +306,25 @@
     top: 70px;
     width: 36%;
     left: 10%;
+    z-index: 0;
   }
   .first-box .im1 {
     width: 50%;
+  }
+  .first-box .btn {
+    margin-left: 30%;
   }
   .second-box {
     top: 70px;
     width: 36%;
     left: 53%;
+    z-index: 0;
   }
   .second-box .im2 {
     width: 42%;
+  }
+  .second-box .btn {
+    margin-left: 30%;
   }
 }
 
@@ -344,6 +398,7 @@
     top: 70px;
     width: 36%;
     left: 10%;
+    z-index: 0;
   }
   .first-box .im1 {
     width: 50%;
@@ -352,6 +407,7 @@
     top: 70px;
     width: 36%;
     left: 53%;
+    z-index: 0;
   }
   .second-box .im2 {
     width: 42%;
